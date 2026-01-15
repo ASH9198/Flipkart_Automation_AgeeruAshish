@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-01-16T03:56:15 IST" name="Suite" finished-at="2026-01-16T03:56:36 IST" duration-ms="20783">
+    <groups>
+    </groups>
+    <test started-at="2026-01-16T03:56:15 IST" name="Flipkart End To End Tests" finished-at="2026-01-16T03:56:36 IST" duration-ms="20783">
+      <class name="com.flipkart.qa.testcases.FlipkartEndToEndFlow">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.flipkart.qa.testcases.FlipkartEndToEndFlow@3e27aa33]" started-at="2026-01-16T03:56:15 IST" name="setUp" finished-at="2026-01-16T03:56:20 IST" duration-ms="4678" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="productSelection()[pri:0, instance:com.flipkart.qa.testcases.FlipkartEndToEndFlow@3e27aa33]" started-at="2026-01-16T03:56:20 IST" name="productSelection" description="Product Selection" finished-at="2026-01-16T03:56:30 IST" duration-ms="9776" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productSelection -->
+        <test-method signature="addToCartAndCheckout()[pri:0, instance:com.flipkart.qa.testcases.FlipkartEndToEndFlow@3e27aa33]" started-at="2026-01-16T03:56:30 IST" name="addToCartAndCheckout" description="Add to Cart and Checkout" finished-at="2026-01-16T03:56:31 IST" depends-on-methods="com.flipkart.qa.testcases.FlipkartEndToEndFlow.productSelection" duration-ms="981" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCartAndCheckout -->
+        <test-method signature="paymentFlow()[pri:0, instance:com.flipkart.qa.testcases.FlipkartEndToEndFlow@3e27aa33]" started-at="2026-01-16T03:56:31 IST" name="paymentFlow" description="Login and Paymentflow" finished-at="2026-01-16T03:56:36 IST" depends-on-methods="com.flipkart.qa.testcases.FlipkartEndToEndFlow.addToCartAndCheckout" duration-ms="4784" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paymentFlow -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.flipkart.qa.testcases.FlipkartEndToEndFlow@3e27aa33]" started-at="2026-01-16T03:56:36 IST" name="tearDown" finished-at="2026-01-16T03:56:36 IST" duration-ms="483" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.flipkart.qa.testcases.FlipkartEndToEndFlow -->
+    </test> <!-- Flipkart End To End Tests -->
+  </suite> <!-- Suite -->
+</testng-results>
